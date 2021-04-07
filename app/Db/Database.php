@@ -6,8 +6,8 @@ use \PDOException;
 class Database {
     const HOST = 'localhost';
     const NAME = "crud-php";
-    const USER = 'LoopDias';
-    const PASS = 'programar@10';
+    const USER = 'root';
+    const PASS = '';
 
     /** Nome da tabela no banco  @var string*/
     private $table;
